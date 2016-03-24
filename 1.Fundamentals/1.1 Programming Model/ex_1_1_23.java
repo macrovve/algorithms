@@ -21,17 +21,17 @@ public class ex_1_1_23 {
     }
 
     public static void main(String[] args) {
-        int[] whitelist =new In(args[0]).readAllInts();
-        char judge='-';
+        int[] whitelist = new In(args[0]).readAllInts();
+        char judge = '-';
         Arrays.sort(whitelist);
 
         while (!StdIn.isEmpty()) {
             int key = StdIn.readInt();
-            if (judge=='+') {
+            if (judge == '+') {
                 if (rank(key, whitelist) < 0)
                     StdOut.println(key);
             }
-            if (judge=='-') {
+            if (judge == '-') {
                 if (rank(key, whitelist) >= 0)
                     StdOut.println(key);
             }
