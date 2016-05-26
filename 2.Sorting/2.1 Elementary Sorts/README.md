@@ -34,4 +34,7 @@ public static boolean check(Comparable[] a){
     return Arrays.equals(a,b);
 }
 ```
+## 2.1.17 : [Selection](ex_2_1_17_Selection) | [Insertion](ex_2_1_17_Insertion)
+
+
 
