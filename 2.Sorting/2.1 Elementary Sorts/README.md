@@ -21,7 +21,17 @@
 ## [2.1.11](ex_2_1_11.java)
 
 ## [2.1.12](ex_2_1_12.java)
+
 ## 2.1.15
 选择排序，应该要保证交换的次数尽可能的少，选择排序的交换次数时线性阶的
 
+## 2.1.16
+```java
+public static boolean check(Comparable[] a){
+    Comparable[] b=a.clone();
+    sort(a);
+    Arrays.sort(b);
+    return Arrays.equals(a,b);
+}
+```
 
